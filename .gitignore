@@ -2,14 +2,30 @@
 __pycache__/
 *.py[cod]
 
-# Virtual environment
+# Virtual environments
 venv/
+.venv/
 
 # Environment variables
 .env
 
-# VS Code settings
+# VS Code
 .vscode/
+
+# Chroma DB
+chroma_db/
+
+# Data folder
+data/
+
+# Test script
+test_rag.py
+
+# Hugging Face cache
+.cache/
+
+# Jupyter
+.ipynb_checkpoints/
 
 # macOS
 .DS_Store
